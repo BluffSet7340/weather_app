@@ -4,7 +4,7 @@ import { useState } from "react"
 
 // not particularly safe, but accessing API Key from the env
 const API_KEY = process.env.REACT_APP_API_KEY;
-
+// the above line doesn't work some reason
 
 export default function WeatherForecast() {
     // console.log(process.env.REACT_APP_API_KEY);
@@ -35,7 +35,8 @@ export default function WeatherForecast() {
         // want to test if the input gathering works
         // alert("city: " + city)
         // now we call the fetch method to grab data from url, this includes the city
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=` + city + `&&units=metric&appid=42ccbc50b354dd049f87a9283683e745`;
+        // couldn't access the API key from the .env file so I directly pasted it in. Had some issues so went for this cheap fix
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=` + city + `&&units=metric&appid=`;
         fetch(url)
             .then(response => {
                 if (!response.ok) {
