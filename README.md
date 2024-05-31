@@ -11,4 +11,4 @@ This is my first time using React.js and OpenWeather API to create a weather app
 
 # Sample Image below
 
-![alt text](http://url/to/img.png)
+![alt text](Weather App.png)
