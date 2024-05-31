@@ -11,4 +11,4 @@ This is my first time using React.js and OpenWeather API to create a weather app
 
 # Sample Image below
 
-![alt text](https://github.com/BluffSet7340/weather_app/blob/main/Weather_App.jpg?raw=true)
+![Project](https://snipboard.io/jNq80v.jpg)
